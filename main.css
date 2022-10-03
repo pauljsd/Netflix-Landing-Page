@@ -1,0 +1,533 @@
+html {
+  background-color: black;
+}
+
+* {
+  text-align: center;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* start of part A */
+
+.section-one {
+  padding: 1% 5% 20%;
+}
+.header {
+  background-image: url("images/netflix-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  /* max-width: 300px; */
+  background-position: center;
+  overflow-x: hidden;
+}
+
+/* #lgo-signin-btn-container {
+  padding-top: 10%;
+} */
+
+#logo-signin-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.netflix-logo {
+  width: 100px;
+  margin-right: 30px;
+}
+
+.signin-btn {
+  border: 0;
+  cursor: pointer;
+  border-radius: 8%;
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+  padding: 10px;
+  margin: 5px 10px;
+  background-color: red;
+  width: 100px;
+}
+
+.header h1 {
+  margin-bottom: 0;
+  font-size: 55px;
+}
+
+.header h4 {
+  margin-top: 0%;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-bottom: 1%;
+}
+
+.header p {
+  margin-top: 0%;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+#mail-and-get-started {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+#mail-box {
+  text-align: left;
+  font-size: 1.5em;
+  width: 500px;
+  height: 50px;
+  padding-left: 35px;
+}
+
+#get-started-btn {
+  width: 150px;
+  height: 56px;
+  background-color: red;
+  color: white;
+  font-size: larger;
+  border: 0;
+  margin-top: 0%;
+}
+
+#get-started-btn:hover {
+  cursor: pointer;
+}
+
+.seperator {
+  height: 7px;
+  background: rgb(109, 105, 105);
+}
+
+/* Start of part B */
+
+.section-two {
+  padding: 0 20px;
+  margin: 5% auto;
+}
+
+#section-two-flexbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.text-container {
+  margin-top: 5%;
+}
+
+.section-two h1 {
+  font-size: 3em;
+  margin-bottom: 2.5%;
+}
+
+.section-two h3 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 10%;
+}
+
+/* start of part c  */
+
+.section-three {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5% 0;
+  padding: 0 15px;
+}
+
+.video-download-image {
+  height: 500px;
+  width: 400px;
+}
+
+#video-download-box {
+  width: 400px;
+  height: 85px;
+  border: 2px solid grey;
+  border-radius: 1em;
+  margin: 0 auto;
+}
+
+#video-download-box-content {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 4%; */
+}
+
+#image-download-box {
+  height: 80px;
+  /* margin-top: 0; */
+}
+
+#blue-download {
+  color: blue;
+  font-size: 90%;
+  padding-right: 20%;
+}
+
+#video-download-icon {
+  height: 25px;
+  padding-top: 6%;
+}
+
+.text-download-part h1 {
+  font-size: 3em;
+}
+
+.text-download-part h3 {
+  font-size: 1.5em;
+}
+
+/* start of part d */
+
+.section-four {
+  margin: 5% 0;
+  padding: 0 10px;
+}
+
+.section-four h1 {
+  font-size: 3em;
+}
+
+.section-four h3 {
+  font-size: 1.5em;
+}
+
+/* start of part e  */
+
+.section-five {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5% 0;
+  padding: 0 10px;
+}
+
+#image-of-kids {
+  height: 450px;
+}
+
+.section-five h1 {
+  font-size: 3em;
+}
+
+.section-five h3 {
+  font-size: 1.5em;
+}
+
+/* start of part f  */
+
+.section-six {
+  margin: 5% 0;
+  padding: 0 10px;
+}
+
+.section-six h1 {
+  font-size: 3em;
+}
+
+.faq-container {
+  margin: 0.75% auto;
+  background: rgb(109, 105, 105);
+  width: 600px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.faq-container-text {
+  font-size: 1.6em;
+}
+
+.faq-answer-btn {
+  font-size: 2.5em;
+  background-color: rgb(109, 105, 105);
+  color: white;
+  border: 0;
+  margin-left: auto;
+}
+
+.faq-answer-btn:hover {
+  cursor: pointer;
+}
+
+.close-faq-answer-btn {
+  font-size: 2.5em;
+  background-color: rgb(109, 105, 105);
+  color: white;
+  border: 0;
+  margin-left: 40%;
+}
+
+.faq-answer {
+  background-color: rgb(109, 105, 105);
+  margin: 0.25% auto;
+  width: 590px;
+  height: 250px;
+  font-size: 1.4em;
+  text-align: left;
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* start of part g */
+
+.section-seven {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
+
+.section-seven a {
+  color: azure;
+}
+
+.list {
+  text-align: left;
+}
+
+#question {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.footer {
+  text-align: left;
+  margin-left: 10%;
+}
+
+/* START OF MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  .signin-btn {
+    background-color: red;
+    width: 80px;
+    /* padding: 0 20px 0 20px; */
+    margin: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header h4 {
+    font-size: 20px;
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header p {
+    font-size: 15px;
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #mail-box {
+    width: 250px;
+    height: 35px;
+    padding-right: 145px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #get-started-btn {
+    width: 110px;
+    height: 40px;
+    font-size: 15px;
+    /* padding-right: 100px; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-two h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-two h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .video-download-image {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-six h2 {
+    font-size: 1em;
+    margin: 2% 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #image-download-box {
+    width: 50px;
+    height: 70px;
+    padding-left: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #blue-download {
+    font-size: 75%;
+    padding-right: 20%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #video-download-icon {
+    height: 40px;
+    width: 40px;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text-download-part h1 {
+    font-size: 2em;
+    padding: 3% 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #question {
+    margin: 2% 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #video-download-box {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+    margin: 3% 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text-download-part h3 {
+    font-size: 1em;
+    padding: 5% 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-four {
+    margin: 5% 0;
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-four h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-four h3 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-five h1 {
+    font-size: 1.5em;
+    margin-bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #image-of-kids {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-five h3 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-six h1 {
+    font-size: 1.5em;
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #logo-signin-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .netflix-logo {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .faq-container {
+    width: 350px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .faq-answer {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .faq-container-text {
+    font-size: 1.3em;
+  }
+}
