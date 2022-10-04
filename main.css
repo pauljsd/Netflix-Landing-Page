@@ -434,12 +434,6 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-  .list {
-    margin: 3% 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
   .header {
     width: 100%;
   }
@@ -480,6 +474,7 @@ html {
 
 @media screen and (max-width: 600px) {
   #image-of-kids {
+    height: 350px;
     width: 350px;
   }
 }
